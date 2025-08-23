@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desarrollador Web — Nico</title>
+  <meta name="description" content="Sitios web rápidos, modernos y optimizados para tu negocio. Desarrollo web a medida por Nico." />
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a href="#top" class="logo" aria-label="Inicio">Nico<span>Dev</span></a>
+      <nav class="menu" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto" class="btn btn--sm">Contacto</a>
+      </nav>
+      <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav id="mobileMenu" class="mobile-menu" hidden>
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto" class="btn btn--sm">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <h1>Sitios web que convierten.</h1>
+        <p>Diseño y desarrollo páginas rápidas, modernas y optimizadas para SEO. Transformá visitas en clientes con una web hecha a tu medida.</p>
+        <div class="hero__cta">
+          <a href="#contacto" class="btn">Quiero mi web</a>
+          <a href="#trabajos" class="btn btn--ghost">Ver trabajos</a>
+        </div>
+        <ul class="hero__trust">
+          <li>⚡ Carga ultra rápida</li>
+          <li>📱 100% responsive</li>
+          <li>🔒 Buenas prácticas y accesibilidad</li>
+        </ul>
+      </div>
+      <div class="hero__card">
+        <div class="stat">
+          <strong>+20</strong>
+          <span>Proyectos entregados</span>
+        </div>
+        <div class="stat">
+          <strong>~2-4 sem</strong>
+          <span>Tiempo de desarrollo</span>
+        </div>
+        <div class="stat">
+          <strong>98%</strong>
+          <span>Satisfacción de clientes</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2 class="section__title">Servicios</h2>
+      <p class="section__subtitle">Soluciones pensadas para tu negocio.</p>
+
+      <div class="grid cards">
+        <article class="card">
+          <h3>Landing Page</h3>
+          <p>Una página enfocada en conversión: ideal para campañas y vender un servicio o producto.</p>
+          <ul class="list">
+            <li>Copy + diseño a medida</li>
+            <li>Integración con WhatsApp/Email</li>
+            <li>SEO on-page básico</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Sitio Web Corporativo</h3>
+          <p>Web completa de varias secciones para presentar tu marca con autoridad y claridad.</p>
+          <ul class="list">
+            <li>Home + Servicios + Contacto</li>
+            <li>Blog opcional</li>
+            <li>Optimización de rendimiento</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Tienda Online</h3>
+          <p>E-commerce escalable con catálogo, carrito y pagos. Preparado para crecer.</p>
+          <ul class="list">
+            <li>Productos y variantes</li>
+            <li>Pasarelas de pago</li>
+            <li>Dashboard simple</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trabajos / Portfolio -->
+  <section id="trabajos" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Trabajos recientes</h2>
+      <p class="section__subtitle">Una muestra de calidad y estilo.</p>
+
+      <div class="grid work">
+        <figure class="work__item">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Sitio para Startup tecnológica" loading="lazy">
+          <figcaption>Startup Tech — Landing con alto CTR</figcaption>
+        </figure>
+
+        <figure class="work__item">
+          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop" alt="Tienda online de productos" loading="lazy">
+          <figcaption>Tienda Eco — E-commerce escalable</figcaption>
+        </figure>
+
+        <figure class="work__item">
+          <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=1200&auto=format&fit=crop" alt="Sitio corporativo" loading="lazy">
+          <figcaption>Estudio Creativo — Web corporativa</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proceso -->
+  <section id="proceso" class="section">
+    <div class="container">
+      <h2 class="section__title">Mi proceso</h2>
+      <div class="timeline">
+        <div class="step">
+          <span class="step__num">01</span>
+          <div>
+            <h3>Brief & estrategia</h3>
+            <p>Entiendo tu negocio y objetivos para definir un plan claro.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <div>
+            <h3>UI/UX & contenido</h3>
+            <p>Prototipo, diseño visual y copies persuasivos alineados a tu marca.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <div>
+            <h3>Desarrollo & pruebas</h3>
+            <p>Implemento con buenas prácticas, performance y accesibilidad.</p>
+          </div>
+        </div>
+        <div class="step">
+          <span class="step__num">04</span>
+          <div>
+            <h3>Lanzamiento & soporte</h3>
+            <p>Deploy, métricas y mejoras continuas según resultados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Qué dicen mis clientes</h2>
+      <div class="grid testimonials">
+        <blockquote class="quote">
+          <p>“Nuestra web pasó de lenta a súper rápida y empezamos a recibir más consultas.”</p>
+          <footer>— Laura, Estudio Creativo</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Nico entendió perfecto el negocio y la landing convirtió desde el día uno.”</p>
+          <footer>— Martín, Startup Tech</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="section__title">Hablemos de tu proyecto</h2>
+      <p class="section__subtitle">Contestás en menos de 24 hs.</p>
+
+      <div class="grid contact">
+        <form class="form" action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+          </label>
+          <label>
+            <span>Mensaje</span>
+            <textarea name="mensaje" rows="5" placeholder="Contame qué necesitás" required></textarea>
+          </label>
+          <button type="submit" class="btn">Enviar</button>
+          <p class="form__note">También por WhatsApp: <a href="https://wa.me/54911XXXXXXX" target="_blank" rel="noopener">+54 9 11 XXXXXXX</a></p>
+        </form>
+
+        <div class="contact__card">
+          <h3>¿Por qué elegirme?</h3>
+          <ul class="list">
+            <li>Experiencia real en proyectos</li>
+            <li>Foco en resultados medibles</li>
+            <li>Comunicación clara y directa</li>
+            <li>Soporte post-lanzamiento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <p>© <span id="year"></span> NicoDev — Desarrollador Web</p>
+      <a class="to-top" href="#top" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // Año automático
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Menú mobile
+    const burger = document.querySelector('.burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    burger?.addEventListener('click', () => {
+      const isOpen = mobileMenu.hasAttribute('hidden') ? false : true;
+      if (isOpen) {
+        mobileMenu.setAttribute('hidden', '');
+        burger.setAttribute('aria-expanded', 'false');
+      } else {
+        mobileMenu.removeAttribute('hidden');
+        burger.setAttribute('aria-expanded', 'true');
+      }
+    });
+
+    // Cerrar menú al navegar
+    mobileMenu?.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.setAttribute('hidden', '');
+        burger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Cerrar menú al hacer clic fuera del menú o del botón burger
+    document.addEventListener('click', function(event) {
+      const isClickInsideMenu = mobileMenu.contains(event.target);
+      const isClickOnBurger = burger.contains(event.target);
+      const isMenuOpen = !mobileMenu.hasAttribute('hidden');
+      if (isMenuOpen && !isClickInsideMenu && !isClickOnBurger) {
+        mobileMenu.setAttribute('hidden', '');
+        burger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+</body>
+</html>
